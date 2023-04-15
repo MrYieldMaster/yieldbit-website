@@ -1,0 +1,69 @@
+.tokenomicsSection {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+  padding: auto;
+}
+
+.sectionTitle {
+  padding: 30px;
+  margin-top: 1.2rem;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.sectionSubtitle {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.tokenomicsGrid {
+  display: grid;
+  grid-template-columns: repeat (auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.tokenomicsItem {
+  background-color: white;
+  border-radius: 5px;
+  padding: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.tokenomicsItem:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16), 0 4px 6px rgba(0, 0, 0, 0.23);
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #3b5998; /* Change this color to your preference */
+  animation: iconAnimation 1s infinite;
+}
+
+@keyframes iconAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.tokenomicsItem h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.tokenomicsItem p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+

@@ -1,0 +1,44 @@
+.faqSection {
+    padding: 4rem 0;
+    background-color: #ffffff;
+  }
+  
+  .sectionTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .accordionItem {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .question {
+    background-color: #333;
+    color: #ffffff;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  
+  .answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .answer p {
+    padding: 1rem;
+  }
+  
+  .active .answer {
+    max-height: 500px;
+  }
+  

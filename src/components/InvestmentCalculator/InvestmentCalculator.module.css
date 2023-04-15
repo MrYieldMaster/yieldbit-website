@@ -1,0 +1,48 @@
+.investmentCalculator {
+    border: 5px solid #f8e32d;
+    padding: 4rem 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .calculatorTitle {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .inputContainer {
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .inputContainer label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .inputContainer input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .calculateButton {
+    background-color: #010b01;
+    border: 1px solid #f8e32d;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .calculateButton:hover {
+    background-color: #e4f139;
+  }
+  
+  .result {
+    font-size: 1.25rem;
+  }
+  

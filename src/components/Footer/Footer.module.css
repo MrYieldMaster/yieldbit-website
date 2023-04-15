@@ -1,0 +1,114 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: .5rem;
+  justify-items: start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.logoContainer {
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.about {
+  font-size: 1rem;
+  max-width: 280px;
+}
+
+.contact {
+  margin-bottom: 1rem;
+}
+
+.contact h3
+{
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.links ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.links a {
+  color: #791a1a;
+  text-decoration: none;
+}
+
+.newsletterForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.newsletterForm input {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.newsletterForm button {
+  background-color: #e8e825;
+  border: none;
+  color: rgb(2, 2, 2);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.newsletterForm button:hover {
+  background-color: #620e92;
+}
+
+.contact p {
+  margin: 0.3rem 0;
+}
+
+.socialIcons {
+  margin-left: 80px;
+  align-items: center;
+  display: flex;
+  gap: 20rem;
+}
+
+.socialIcons a {
+  align-items: center;
+  color: #f6e33b;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.socialIcons a:hover {
+  color: #620e92;
+}
+
+.footerBottom {
+  text-align: center;
+  margin-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+}
+
+.footerBottom p {
+  margin: 0;
+}

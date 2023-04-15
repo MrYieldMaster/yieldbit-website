@@ -1,0 +1,65 @@
+.projectInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  margin: 40px 0;
+  width: 100%;
+  text-align: center;
+  background: #0a0a0a;
+  color: #1d1c1c;
+  border: 5px solid #0b0b0b;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.24);
+  text-decoration: none;
+}
+
+.projectInfo .logo {
+  margin-top: -100px;
+  margin-bottom: -100px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 1s ease-in-out;
+  image-rendering: optimizeQuality;
+}
+
+.projectInfo .logo:hover {
+  transform: scale(1.05); /* Slightly increase the size of the logo on hover */
+}
+
+
+.projectInfo h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #f6f1f1;
+  
+  letter-spacing: 2px;
+}
+
+.projectInfo p {
+  font-size: 1.1rem; 
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  padding: 20px;
+  border: 2px solid #f8f41a;
+  border-radius: 15px;
+  background-color: #f1f1f1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+.projectInfo p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .projectInfo h2 {
+    font-size: 2rem;
+  }
+
+  .projectInfo p {
+    font-size: 1rem;
+  }
+}
