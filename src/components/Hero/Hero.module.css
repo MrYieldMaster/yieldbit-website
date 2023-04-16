@@ -40,11 +40,11 @@
 
 .ctaButton {
   background-color: #090a09;
-  border: none;
+  border: 3px solid #f1e721;
   color: white;
   padding: 0.75rem 1.5rem;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 15px;
   font-size: 1rem;
 }
 

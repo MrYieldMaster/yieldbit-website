@@ -15,6 +15,7 @@ import CompanyLogos from './components/CompanyLogos/CompanyLogos';
 import InvestmentCalculator from './components/InvestmentCalculator/InvestmentCalculator';
 import LandingPage from './LandingPage';
 
+
 function App() {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
 

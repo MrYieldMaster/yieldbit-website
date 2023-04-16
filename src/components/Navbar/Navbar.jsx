@@ -27,7 +27,7 @@ const Navbar = () => {
             <Link to="/faq">FAQ</Link>
           </li>
         </ul>
-        <button className={styles.connectWalletBtn}>Connect Wallet</button>
+        <button className={styles.connectWalletBtn}>Telegram</button>
       </nav>
     );
   };
