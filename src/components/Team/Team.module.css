@@ -1,61 +1,82 @@
 .teamSection {
-    padding: 4rem 0;
-    background-color: #f8f9fa;
-  }
+  padding: 4rem 0;
+  background-color: #f9f349;
+}
+
+.sectionTitle {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
   
-  .sectionTitle {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .sectionSubtitle {
-    text-align: center;
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
-  }
-  
-  .teamGrid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-  }
-  
+}
+
+.sectionSubtitle {
+  padding: 20px;
+  margin: 20px;
+  border: #f80 4px solid;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.teamGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.teamItem {
+  flex-basis: calc(33% - 2rem);
+  background-color: white;
+  border-radius: 5px;
+  padding: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  text-align: center;
+}
+
+.teamImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 4px solid;
+  border-image-source: linear-gradient(45deg, rgb(240, 246, 72), #f80);
+  border-image-slice: 1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.teamImage:hover {
+  transform: scale(1.05);
+}
+
+.teamItem h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.teamItem p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  image-rendering: optimizeQuality;
+}
+
+@media (max-width: 1024px) {
   .teamItem {
-    flex-basis: calc(33% - 2rem);
-    background-color: white;
-    border-radius: 5px;
-    padding: 2rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    text-align: center;
+    flex-basis: calc(50% - 2rem);
   }
-  
-  .teamImage {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .teamItem {
+    flex-basis: 100%;
   }
-  
-  .teamItem h3 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .teamItem p {
-    font-size: 1rem;
-  }
-  
-  @media (max-width: 1024px) {
-    .teamItem {
-      flex-basis: calc(50% - 2rem);
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .teamItem {
-      flex-basis: 100%;
-    }
-  }
+}
+
   

@@ -26,9 +26,16 @@ const Navbar = () => {
           <li>
             <Link to="/faq">FAQ</Link>
           </li>
-        </ul>
-        <button className={styles.connectWalletBtn}>Telegram</button>
-      </nav>
+          </ul>
+      <a
+        href="https://app.gitbook.com/s/cN6GxH9sJyfJbgYNjTR2/"
+        target="_blank"
+        rel="noreferrer"
+        className={styles.connectWalletBtn}
+      >
+        Whitepaper
+      </a>
+    </nav>
     );
   };
   

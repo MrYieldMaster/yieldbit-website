@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Footer.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faTelegramPlane, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -9,6 +10,13 @@ const Footer = () => {
       <div className={styles.footerContent}>
         <div className={styles.logoContainer}>
           <h2 className={styles.logo}>YIELDBIT</h2>
+          <div className={styles.footerLinks}>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/faq">FAQ</Link>
+            </div>
+          
         </div>
 
         <div className={styles.newsletter}>
@@ -29,7 +37,7 @@ const Footer = () => {
           <a href="https://twitter.com/your_handle" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faTwitter} />
           </a>
-          <a href="https://t.me/your_telegram_group" target="_blank" rel="noreferrer">
+          <a href="https://t.me/YieldBit" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faTelegramPlane} />
           </a>
           <a href="https://github.com/your_username" target="_blank" rel="noreferrer">

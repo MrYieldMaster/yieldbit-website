@@ -21,8 +21,26 @@ const Faq = () => {
         question: 'How does the passive income work?',
         answer: 'By holding YieldBit tokens (with a minimum investment of $50 USD), investors receive 5% passive income in Bitcoin. This income is automatically distributed to their wallets, ensuring a seamless and hassle-free experience. The more tokens you hold, the more passive income you can generate!'
       },
-      // Add more questions and answers here
+      { 
+        question: 'How do I buy YieldBit?',
+        answer: 'YieldBit is available for purchase on PancakeSwap. You can find the contract address on our website.'
+      },
+      {
+        question: 'How do I earn passive income?',
+        answer: 'Simply hold YieldBit tokens in your wallet and you will receive 5% passive income in Bitcoin. This income is automatically distributed to your wallet, ensuring a seamless and hassle-free experience. The more tokens you hold, the more passive income you can generate!'
+      },
+      {
+        question: 'How do I withdraw my passive income?',
+        answer: 'Your passive income is automatically distributed to your wallet. You can withdraw your passive income at any time.'
+      },
+      { 
+        question: 'How do I sell YieldBit?',
+        answer: 'YieldBit is available for sale on PancakeSwap. You can find the contract address on our website.'
+      },
+
+
     ];
+    
   
     return (
       <section className={styles.faqSection}>
